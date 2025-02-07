@@ -143,13 +143,13 @@ span {
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px var(--main-color);
+    border: 3px solid white; /* Borda branca */
     cursor: pointer;
 }
 
 .home-img img:hover {
     transform: scale(1.01);
-    filter: drop-shadow(0 0 25px var(--main-color));
+    border: 3px solid white; /* Mantém a borda branca ao passar o mouse */
 }
 
 .home-content p {
@@ -412,7 +412,6 @@ span {
     background: var(--second-bg-color);
 }
 
-
 .education .timeline {
     position: relative;
     max-width: 1200px;
@@ -436,6 +435,9 @@ span {
     position: relative;
     background-color: inherit;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .education .container::after {
@@ -529,6 +531,90 @@ span {
     color: rgb(0, 0, 0);
     line-height: 1.9;
 }
+
+/* Ajuste da seção de educação */
+#education-section .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+#education-section .container .box {
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Ajustes para telas menores */
+@media screen and (max-width: 768px) {
+    .education .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .education .container::after {
+        right: -12px;
+    }
+
+    .education .content .tag h2 {
+        font-size: 2rem;
+    }
+
+    .education .content .desc h4 {
+        font-size: 1.8rem;
+    }
+
+    .education .content .desc p {
+        font-size: 1.4rem;
+    }
+
+    /* Ajuste no tamanho das caixas */
+    #education-section .container {
+        grid-template-columns: 1fr; /* Colocar as caixas uma abaixo da outra */
+    }
+
+    #education-section .container .box {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    /* Ajuste para containers esquerda e direita */
+    .education .left, .education .right {
+        width: 100%; /* Tornar os containers full-width em telas pequenas */
+        left: 0; /* Remover a posição relativa */
+        text-align: center;
+    }
+
+    .education .right {
+        left: 0; /* Garantir que o conteúdo da direita apareça corretamente */
+    }
+
+    .education .right::before {
+        left: 50%; /* Ajuste no pseudo-elemento da direita */
+        margin-left: -16px;
+    }
+}
+
+/* Ajuste para a Navbar */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-menu {
+        display: none; /* Esconder o menu para dispositivos menores */
+    }
+
+    .navbar-toggle {
+        display: block; /* Mostrar o ícone de menu */
+    }
+}
+
 
 .contact {
     background: var(--bg-color);
@@ -878,22 +964,6 @@ span {
         font-size: 14px;
     }
 
-    /* Ajuste da seção de educação */
-    #education-section .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 2rem;
-    }
-
-    #education-section .container .box {
-        padding: 1rem;
-        background-color: #f4f4f4;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: left;
-        /* Garantir alinhamento */
-    }
 }
 
 
