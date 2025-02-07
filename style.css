@@ -32,14 +32,6 @@ body {
     color: var(--text-color);
 }
 
-html::-webkit-scrollbar {
-    background: var(--bg-color);
-}
-
-html::-webkit-scrollbar-track {
-    background: var(--main-color);
-}
-
 .header {
     position: fixed;
     /* Fixa no topo */
