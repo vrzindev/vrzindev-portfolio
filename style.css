@@ -836,6 +836,8 @@ span {
         width: 80%;
         max-width: 90%;
         margin-top: 3rem;
+        height: auto;          
+        aspect-ratio: 1 / 1;     
     }
 
     .navbar a {
