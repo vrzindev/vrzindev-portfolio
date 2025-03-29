@@ -147,6 +147,7 @@ span {
     cursor: pointer;
     height: 32vw;         /* adicionado para definir altura igual à largura */
     object-fit: cover;    /* adicionado para manter o recorte circular */
+    object-position: top; /* ajusta a imagem para ficar mais para cima */
 }
 
 .home-img img:hover {
