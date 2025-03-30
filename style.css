@@ -15,7 +15,7 @@
     --bg-color: #292A2D;
     --second-bg-color: #292A2D;
     --text-color: white;
-    --main-color: #5370FE;
+    --main-color: #A39F8C;
 }
 
 html {
@@ -324,7 +324,7 @@ span {
 .service-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color);
-    background-color: rgb(155, 197, 224);
+    background-color: #A39F8C; /* alterado de #5370FE para #A39F8C */
     color: var(--text-color);
 }
 
@@ -354,7 +354,7 @@ span {
 }
 
 .skills .container {
-    background: #5370FE;
+    background: #A39F8C; /* alterado de #5370FE para #A39F8C */
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
@@ -459,7 +459,7 @@ span {
     text-align: center;
     font-weight: 600;
     font-family: "Font Awesome\ 5 free";
-    color: #5370FE;
+    color: #A39F8C; /* alterado de #5370FE para #A39F8C */
 }
 
 .education .left {
@@ -668,7 +668,7 @@ span {
 
 .contact .contact-form .form button:active {
     transform: scale(1.05);
-    background-color: #5370FE;
+    background-color: #A39F8C; /* alterado de #5370FE para #A39F8C */
 }
 
 .footer {
@@ -735,7 +735,7 @@ span {
 }
 
 .projects .heading span {
-    color: #5370FE;
+    color: #A39F8C; /* alterado de #5370FE para #A39F8C */
 }
 
 .projects-container {
@@ -759,7 +759,7 @@ span {
 .project-box h4 {
     font-size: 1.6rem;
     margin-bottom: 15px;
-    color: #5370FE;
+    color: #A39F8C;
 }
 
 .project-box p {
@@ -770,7 +770,7 @@ span {
 
 .project-box a.btn {
     display: inline-block;
-    background-color: #5370FE;
+    background-color: #A39F8C; /* alterado de #5370FE para #A39F8C */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -780,7 +780,7 @@ span {
 }
 
 .project-box a.btn:hover {
-    background-color: #4458D8;
+    background-color: #A39F8C; /* alterado de #4458D8 para #A39F8C */
     transform: scale(1.05); /* Apenas um leve aumento ao invés de ficar muito grande */
 }
 
