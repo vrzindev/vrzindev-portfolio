@@ -15,7 +15,7 @@
     --bg-color: #292A2D;
     --second-bg-color: #292A2D;
     --text-color: white;
-    --main-color: #A39F8C;
+    --main-color: #A6A18D; 
 }
 
 html {
@@ -324,7 +324,7 @@ span {
 .service-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color);
-    background-color: #A39F8C; /* alterado de #5370FE para #A39F8C */
+    background-color: #A6A18D; /* alterado para #A6A18D */
     color: var(--text-color);
 }
 
@@ -354,7 +354,7 @@ span {
 }
 
 .skills .container {
-    background: #A39F8C; /* alterado de #5370FE para #A39F8C */
+    background: #A6A18D; /* alterado para #A6A18D */
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
@@ -459,7 +459,7 @@ span {
     text-align: center;
     font-weight: 600;
     font-family: "Font Awesome\ 5 free";
-    color: #A39F8C; /* alterado de #5370FE para #A39F8C */
+    color: #A6A18D; /* alterado para #A6A18D */
 }
 
 .education .left {
@@ -668,7 +668,7 @@ span {
 
 .contact .contact-form .form button:active {
     transform: scale(1.05);
-    background-color: #A39F8C; /* alterado de #5370FE para #A39F8C */
+    background-color: #A6A18D; /* alterado para #A6A18D */
 }
 
 .footer {
@@ -735,7 +735,7 @@ span {
 }
 
 .projects .heading span {
-    color: #A39F8C; /* alterado de #5370FE para #A39F8C */
+    color: #A6A18D; /* alterado para #A6A18D */
 }
 
 .projects-container {
@@ -759,7 +759,7 @@ span {
 .project-box h4 {
     font-size: 1.6rem;
     margin-bottom: 15px;
-    color: #A39F8C;
+    color: #A6A18D;
 }
 
 .project-box p {
@@ -770,7 +770,7 @@ span {
 
 .project-box a.btn {
     display: inline-block;
-    background-color: #A39F8C; /* alterado de #5370FE para #A39F8C */
+    background-color: #A6A18D; /* alterado para #A6A18D */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -780,7 +780,7 @@ span {
 }
 
 .project-box a.btn:hover {
-    background-color: #A39F8C; /* alterado de #4458D8 para #A39F8C */
+    background-color: #A6A18D; /* alterado para #A6A18D */
     transform: scale(1.05); /* Apenas um leve aumento ao invés de ficar muito grande */
 }
 
